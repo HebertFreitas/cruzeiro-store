@@ -1,0 +1,236 @@
+/* MOBILE AND TABLET */
+@media (max-width: 991px) {
+    .top-menu-mobile {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .navbar {
+        padding: 0.9rem 0 !important;
+    }
+
+    .navbar-top-border {
+        border-top: 1px SOLID #ffffff4f;
+        margin-top: 1rem;
+        padding-top: 1rem;
+    }
+    .navbar-bottom-border {
+        border-bottom: 1px SOLID #ffffff4f;
+        margin-bottom: 1rem;
+        margin-top: 1.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .navbar-dark .navbar-brand {
+        margin: 0;
+    }
+
+    .language-mobile a img {
+        width: 65%;
+    }
+
+    .navbar-nav {
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .redes-language-mobile {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .redes-mobile {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: end;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    .redes-mobile a {
+        width: 7%;
+    }
+
+    .mais-info-mobile {
+        position: fixed;
+        bottom: 0;
+        background-color: #06174f;
+        z-index: 9;
+        width: 100%;
+        padding: 0.7rem 0;
+    }
+
+    .VsClube img {
+        width: 30%;
+        height: auto;
+    }
+
+    .escudo-placar {
+        width: 65%;
+        margin-right: 5%;
+        padding-top: 1.4rem;
+        padding-bottom: 1.4rem;
+        gap: 1rem;
+    }
+
+    .campeonato {
+        text-align: center;
+    }
+
+    .campeonato p {
+        font-size: 0.6rem;
+        padding: 0.5rem;
+    }
+
+    .rodada {
+        font-size: 0.5rem;
+        padding: 0.2rem 1rem;
+        top: 1.4rem;
+    }
+
+    .nome-clubes {
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    .data-partida {
+        margin: 0.8rem 0;
+    }
+
+    .data-partida .dia {
+        font-size: 0.43rem;
+        padding: 0.4rem;
+    }
+
+    .data-partida .hora {
+        font-size: 0.43rem;
+        padding: 0.4rem;
+    }
+
+    .estadio-partida {
+        font-size: 0.5rem;
+        padding: 0.4rem;
+    }
+
+    .seeDetails .escudo-placar {
+        width: 70%;
+    }
+
+    .slick-slide img {
+        width: 100%;
+    }
+
+    .nq-c-BlockOfficialOutfits-list[data-item-count="3"] .nq-c-BlockOfficialOutfits-item:first-of-type,
+    .nq-c-BlockOfficialOutfits-list[data-item-count="3"] .nq-c-BlockOfficialOutfits-item:last-of-type {
+        display: block;
+    }
+
+    .nq-c-BlockOfficialOutfits-list[data-item-count="3"] .nq-c-BlockOfficialOutfits-list-xtra {
+        text-align: center;
+    }
+
+    .nq-c-BlockOfficialOutfits-list[data-item-count="3"] .nq-c-BlockOfficialOutfits-item {
+        margin: 1rem auto !important;
+    }
+
+    .nq-c-BlockOfficialOutfits-list-xtra {
+        padding: 0;
+    }
+
+    .nq-c-FooterTitle {
+        background-color: transparent;
+    }
+
+    .nq-c-FooterTitle-content {
+        color: #fff;
+        font-size: 1.2rem;
+    }
+
+    .nq-c-FooterTitle {
+        padding: 0;
+    }
+
+    .nq-c-FooterTitle-content {
+        margin: 1.5rem 0;
+    }
+
+    .nq-c-FooterLinks-block {
+        padding: 0 1rem;
+        border-bottom: 0;
+    }
+
+    .nq-c-FooterLinks-list {
+        margin-left: 1rem;
+    }
+
+    .nq-c-FooterBaseline {
+        padding: 1rem 0 5rem 0;
+    }
+
+    .title-news {
+        font-size: 0.8rem;
+    }
+
+    .logos-footer-custom {
+        width: 40%;
+        text-align: center;
+    }
+
+    .col-megamenu {
+        margin-bottom: 1rem;
+    }
+
+    .data-partida::after {
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .side-left-infos {
+        width: 60%;
+    }
+
+    .nav-pills .nav-link {
+        font-size: 0.85rem;
+    }
+    .nav-pills .nav-link.active {
+        font-size: 0.85rem;
+    }
+
+    .nq-c-FooterLinks-contact strong {
+        font-size: 1rem;
+    }
+
+    .navbar-brand img {
+        width: 30%;
+    }
+}
+
+@media (min-width: 451px) and (max-width: 767px) {
+    .nq-c-BlockBanner2Pushs4Thumbnails-banner.mask-news {
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 884px) {
+    .nq-c-Block2ColumnsConfigImage4Pushs-item {
+        width: 100%;
+    }
+}
